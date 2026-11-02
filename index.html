@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hair Reset Tracker</title>
+    <title>Hair Reset & Oil Control</title>
     <style>
         :root {
             --bg-color: #121212;
@@ -71,7 +71,6 @@
         .title-morning { color: var(--accent-blue); }
         .title-afternoon { color: var(--accent-green); }
         .title-night { color: var(--accent-purple); }
-        .title-weekly { color: #ff9800; }
 
         .todo-item {
             display: flex;
@@ -140,61 +139,69 @@
 
     <div class="app-container">
         <header>
-            <h1>Hair Density Tracker</h1>
-            <p>Consistency defeats genetic & hostel damage.</p>
+            <h1>Hair & Scalp Reset</h1>
+            <p>CRITICAL: NO SOAP. Gentle cleansing only.</p>
         </header>
 
-        <!-- MORNING ROUTINE -->
+        <!-- MORNING SHIELD -->
         <div class="section-card">
-            <div class="section-title title-morning">☀️ Morning Focus</div>
+            <div class="section-title title-morning">☀️ Morning Oil Control</div>
             
+            <div class="todo-item">
+                <input type="checkbox" id="m0">
+                <div class="todo-text">
+                    <label class="todo-label" for="m0">❌ NO BAR SOAP USED</label>
+                    <span class="todo-desc">Proudly kept harsh body soap away from my fragile hair roots.</span>
+                </div>
+            </div>
+
             <div class="todo-item">
                 <input type="checkbox" id="m1">
                 <div class="todo-text">
-                    <label class="todo-label" for="m1">Almonds, Walnuts & Dates</label>
-                    <span class="todo-desc">3 almonds, 2 walnuts, 2 dates for structural zinc & iron.</span>
+                    <label class="todo-label" for="m1">Diluted Sulfate-Free Wash</label>
+                    <span class="todo-desc">Mixed shampoo with water in a mug to gently clear overnight oil.</span>
                 </div>
             </div>
 
             <div class="todo-item">
                 <input type="checkbox" id="m2">
                 <div class="todo-text">
-                    <label class="todo-label" for="m2">Seed Laddu</label>
-                    <span class="todo-desc">Flax, pumpkin, and watermelon seeds (natural DHT blocking shield).</span>
+                    <label class="todo-label" for="m2">Filter Water Final Rinse</label>
+                    <span class="todo-desc">Used 1L of clean RO drinking water to flush hard water minerals.</span>
                 </div>
             </div>
-            
+
             <div class="todo-item">
                 <input type="checkbox" id="m3">
                 <div class="todo-text">
-                    <label class="todo-label" for="m3">Zero Junk Food</label>
-                    <span class="todo-desc">Skipped oily outside snacks to protect systemic nutrition.</span>
+                    <label class="todo-label" for="m3">Almonds, Walnuts, Dates & Laddu</label>
+                    <span class="todo-desc">Nutrient stack consumed. Pumpkin seeds active as a DHT shield.</span>
                 </div>
             </div>
         </div>
 
-        <!-- AFTERNOON ROUTINE -->
+        <!-- AFTERNOON FUEL -->
         <div class="section-card">
             <div class="section-title title-afternoon">🌤️ Afternoon Focus</div>
             
             <div class="todo-item">
                 <input type="checkbox" id="a1">
                 <div class="todo-text">
-                    <label class="todo-label" for="a1">Eat Kiwi Post-Lunch</label>
-                    <span class="todo-desc">Vitamin C kick to force absorption of poor-quality hostel dal iron.</span>
+                    <label class="todo-label" for="a1">Kiwi Post-Lunch + Zero Junk</label>
+                    <span class="todo-desc">Vitamin C eaten to absorb iron from dal. Avoided oily mess snacks.</span>
                 </div>
             </div>
         </div>
 
-        <!-- NIGHT ROUTINE -->
+        <!-- NIGHT HAIR RECOVERY -->
         <div class="section-card">
             <div class="section-title title-night">🌙 Night Focus</div>
             
             <div class="todo-item">
                 <input type="checkbox" id="n1">
                 <div class="todo-text">
-                    <label class="todo-label" for="n1">Eat Paneer & Curd Portions</label>
-                    <span class="todo-desc">Essential amino acids needed to manufacture hair keratin.</span>
+                    <label class="todo-label" for="n1">Paneer & Curd Portion</label>
+                    <span class="todo-desc">Keratin building blocks eaten. Staved off late-night junk cravings.</span>
                 </div>
             </div>
 
@@ -202,7 +209,7 @@
                 <input type="checkbox" id="n2">
                 <div class="todo-text">
                     <label class="todo-label" for="n2">Rosemary Rice Water Spray</label>
-                    <span class="todo-desc">Apply directly to the thinnest target scalp zones.</span>
+                    <span class="todo-desc">Applied to thin areas. (Kept coconut oil completely hidden away).</span>
                 </div>
             </div>
 
@@ -210,36 +217,7 @@
                 <input type="checkbox" id="n3">
                 <div class="todo-text">
                     <label class="todo-label" for="n3">5-Min Finger Massage</label>
-                    <span class="todo-desc">Firm massage to force blood circulation straight into roots.</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- WEEKLY SYSTEM -->
-        <div class="section-card">
-            <div class="section-title title-weekly">🔄 Weekly System (2-3x a week)</div>
-            
-            <div class="todo-item">
-                <input type="checkbox" id="w1">
-                <div class="todo-text">
-                    <label class="todo-label" for="w1">Sulfate-Free Hair Wash</label>
-                    <span class="todo-desc">Cleans dirt without sticking to hard water minerals.</span>
-                </div>
-            </div>
-
-            <div class="todo-item">
-                <input type="checkbox" id="w2">
-                <div class="todo-text">
-                    <label class="todo-label" for="w2">Clean RO Drinking Water Final Rinse</label>
-                    <span class="todo-desc">1.5L bottle of filter water to strip away raw tap water minerals.</span>
-                </div>
-            </div>
-
-            <div class="todo-item">
-                <input type="checkbox" id="w3">
-                <div class="todo-text">
-                    <label class="todo-label" for="w3">1-Hour Oil Treatment (Max 1x/wk)</label>
-                    <span class="todo-desc">Coconut oil + rosemary spray. Washed out completely within 60 mins.</span>
+                    <span class="todo-desc">Stimulated dormant follicles to force nutrient delivery.</span>
                 </div>
             </div>
         </div>
@@ -248,7 +226,6 @@
     </div>
 
     <script>
-        // Load saved checklist states on launch
         document.addEventListener("DOMContentLoaded", () => {
             const checkboxes = document.querySelectorAll('input[type="checkbox"]');
             checkboxes.forEach(cb => {
@@ -256,17 +233,14 @@
                 if (savedState === "true") {
                     cb.checked = true;
                 }
-                
-                // Save state instantly when clicked
                 cb.addEventListener("change", () => {
                     localStorage.setItem(cb.id, cb.checked);
                 });
             });
         });
 
-        // Reset system for the next day
         function resetDay() {
-            if (confirm("Reset daily progress values? (Weekly metrics will also reset)")) {
+            if (confirm("Reset daily progress? Stay strong!")) {
                 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
                 checkboxes.forEach(cb => {
                     cb.checked = false;
